@@ -1,0 +1,29 @@
+<?php
+
+	$jojo=20;
+	$stoer = 10;
+	echo "itph <b>verdieping</b>: ";
+	echo $jojo;
+	echo $jojo + $stoer;
+	$resultaat = $jojo + $stoer;
+	$resultaat = $resultaat * $resultaat;
+	echo " ";
+	echo $resultaat;
+
+	echo "<br>";
+
+	$var1 = "dop";
+	$var2 = "erwt";
+	$var3 = "en";
+	echo $var1.$var2.$var3."met worteltjes".$resultaat;
+
+	echo "\n";
+
+	$getal1 = 30;
+	$getal2 = 10;
+	echo  $getal1 * $getal2;
+
+	
+	
+
+?>

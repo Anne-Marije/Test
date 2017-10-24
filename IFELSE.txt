@@ -1,0 +1,10 @@
+	$leeftijd = 10;
+	if($leeftijd < 16){
+		echo "jij mag niks kopen met alcohol";
+	}else{
+		if($leeftijd < 18){
+			echo "jij mag alleen bier en fris";
+		}else{
+			echo "jij mag alles";
+		}
+	}
