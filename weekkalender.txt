@@ -1,0 +1,18 @@
+<?php
+   echo "<b>week kalender</b>";
+
+$nummers = array("zondag","maandag","dinsdag","woensdag", "donderdag", "vrijdag","zaterdag");
+     
+$cijfers = array("22","23","24","25","26","27","28");
+    
+    for($k = 0; $k < count($nummers); $k++){
+         echo "<br>";
+        echo $cijfers[$k];
+        // echo <b> $nummers[$k] </b>;
+       echo "<b>". $nummers[$k] ."</b>";
+    
+       
+    }
+
+
+?>
