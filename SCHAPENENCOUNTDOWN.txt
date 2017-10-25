@@ -1,0 +1,21 @@
+<?php
+
+echo "<h2> schapen tellen </h2>";
+
+for ($x = 1; $x <= 17 ; $x++) {
+  echo "schaap : $x <br>";
+}
+
+
+echo "<h2> hou je emoties onder controle countdown </h2>";
+
+$cijfers = array ("10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "alles onder controle <b> :) </b>");
+$arraylengte = count($cijfers);
+
+for($x = 0; $x < $arraylengte; $x++){
+
+        echo $cijfers[$x];
+        echo "<br>";
+}
+        
+?>

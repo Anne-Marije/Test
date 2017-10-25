@@ -1,0 +1,32 @@
+<?php
+    introductie(25, 5);
+    
+    
+
+    function introductie( $x, $y ){
+        echo " getal ".$x;
+        echo " delen door";
+        echo " getal ".$y." = ". ($x / $y);
+        
+        echo "<br>";
+    }
+
+   introductie(20, 10);
+   introductie(21, 7);
+
+   echo "<br>";
+   
+   function optellen ( $a, $b ){
+       echo "getal ".$a;
+       echo " plus getal ".$b." geeft uit komst ". ($a + $b);
+       
+       echo "<br>";
+       
+
+   }
+
+    optellen(3, 25);
+    optellen (7, 23); 
+   
+   
+   ?>

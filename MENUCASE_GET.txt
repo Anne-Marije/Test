@@ -1,0 +1,38 @@
+<?php
+
+$weekdag = $_GET ["weekdag"];
+       
+
+switch ($weekdag) {
+    case "maandag":
+        echo "We eten erwtensoep";
+        break;
+    case "dinsdag":
+        echo "Vandaag eten we wraps";
+        break;
+    case "woensdag":
+        echo "We eten iets met gehakt";
+        break;
+    case "donderdag":
+        echo "We eten patat";
+        break;
+    case "vrijdag":
+        echo "Deze dag iets met vis";
+        break;
+    case "zaterdag":
+        echo "Vandaag mag Piet kiezen";
+        break;
+    case "zondag":
+        echo "Hosti's staan op het menu";
+        break;
+    default:
+        echo "Je hebt een verkeerde keuze gemaakt";
+        break;
+    
+         
+    
+    
+    
+}
+
+?>  

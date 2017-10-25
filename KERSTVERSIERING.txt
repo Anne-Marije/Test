@@ -1,0 +1,9 @@
+echo "kerstboomrekenmachine";
+
+echo "aantal kerstballen";
+
+echo "lengte van lichtjes";
+
+echo "lengte engelenhaar";
+
+echo "hoogte piek";
